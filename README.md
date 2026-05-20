@@ -1,4 +1,4 @@
-⚡ SpringAI Ollama RAG Assistant
+##⚡ SpringAI Ollama RAG Assistant
 
 💡 AI-powered document assistant that lets you chat with your data.
 Built using Spring Boot + Spring AI + Ollama + React.
