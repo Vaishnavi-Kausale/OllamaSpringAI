@@ -1,16 +1,25 @@
-# React + Vite
+⚡ SpringAI Ollama RAG Assistant
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💡 AI-powered document assistant that lets you chat with your data.
+Built using Spring Boot + Spring AI + Ollama + React.
 
-Currently, two official plugins are available:
+🧠 What it does
+💬 Chat with PDFs & documents
+📚 Retrieves relevant context using RAG (Retrieval Augmented Generation)
+🤖 Uses local LLMs via Ollama (no external API dependency)
+🎯 Gives context-aware, grounded answers from your data
+🛠 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+☕ Spring Boot
+🧠 Spring AI
+🦙 Ollama (Llama3 / Mistral)
+⚛️ React
+📦 Vector Store (pgvector / in-memory)
 
-## React Compiler
+🚀 Why this project
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Built to demonstrate how LLMs can be integrated into real-world backend systems using Java ecosystem — turning raw documents into a smart searchable knowledge assistant.
 
-## Expanding the ESLint configuration
+🔥 Outcome
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+A simple but powerful AI knowledge system that behaves like a private ChatGPT for your documents.
